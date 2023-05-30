@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(34, 32, 32);
+  width: 348px;
+  border-radius: 1em;
+  margin-left: 10px;
+}
+
+.profile {
+  display: flex;
+  gap: 15px;
+  width: 348px;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.follow {
+  color:rgb(34, 32, 32);
+  background-color:#EFF3F4 ;
+  border-color: #EFF3F4;
+  border-radius: 3em;
+  width: 78px;
+  height: 32px;
+  align-self: center;
+  border-width: .01em;
+  border-style: solid;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s ease background-color;
+  
+}
+
+.following {
+  color:#EFF3F4;
+  background-color:rgb(34, 32, 32) ;
+  border-color: #EFF3F4;
+  border-radius: 3em;
+  width: 99px;
+  height: 32px;
+  align-self: center;
+  border-width: .01em;
+  border-style: solid;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s ease background-color;
+  
+}
+
+.names {
+  display: flex;
+  gap: 100px;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.username {
+  color: #71767b;
+}
+
+.card-container {
+  width: 348px;
+}
+
+.profile:hover {
+  background-color: rgb(59, 56, 56);
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+.follow:hover {
+  background-color: #09f;
+}
+
+.following:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.who-title {
+  height: 48px;
+  color: #E7E9EA;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.show-more {
+  height: 48px;
+  color: #E7E9EA;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.show-more-button {
+  display: flex;
+  width: 77.7px;
+  height: 18px;
+  background: rgb(34, 32, 32);
+  border: none;
+  background-color: transparent;
+}
+
+.show-more:hover {
+  background-color: rgb(59, 56, 56);
+}
+
+a {
+  text-decoration: none;
+  color: #1D9BF0;
+}
